@@ -1,0 +1,1 @@
+# Jekyll site for 2sq.biz

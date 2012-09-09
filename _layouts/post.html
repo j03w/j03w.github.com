@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+	<header>
+		<h1>{{ page.title || capitalize }}</h1>
+		<h2>{{  }}</h2>
+	</header>
+		{{ content }}
+	<footer>
+		<p>published on: <time value="{{ page.date }}">{{ page.date | date_normalise }}</time></p>
+	</footer>
+</article>
