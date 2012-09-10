@@ -49,7 +49,7 @@ a:hover {
 .nav-item a:hover { background-color: #d33; color: #eee; }
 
 .title { display: inline; padding-right: 0.5em; }
-.pub-date, footer p { font: 0.75em 'Courier New', coureir, monospace; }
+.pub-date, article footer p { font: 0.75em 'Courier New', coureir, monospace; }
 
 .back { display: block; }
 
