@@ -2,29 +2,56 @@
  HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
  ========================================================================== */
 @import url(pygment_trac.css);
-html { width: 100%; background-color: white; }
-::-moz-selection { background: #f30; text-shadow: none; }
-::selection { background: #f30; text-shadow: none; }
+html { width: 100%; background-color: #f7f7f7; }
+::-moz-selection { background: #d33; text-shadow: none; }
+::selection { background: #d33; color: white; text-shadow: none; }
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 img { vertical-align: middle; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: #333; padding: 0.2em 0; }
-body { font-size: 1em; line-height: 1.4; font-family: 'Gill Sans', 'Century Gothic', 'Helvetica Neue', Arial, 'sans serif'; color: #333; font-weight: 200; }
+body { font-size: 1.25em; line-height: 1.4; font-family: 'Gill Sans', 'Century Gothic', 'Helvetica Neue', Arial, 'sans serif'; color: #333; font-weight: 200; }
 
-a, a:visited { color: #222; text-decoration: underline; }
-a:hover { font-weight: bold; }
+pre,code,kbd,samp { 
+  background-color: #ededed;
+  padding: 0.5em;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+span code { display: inline; padding: 0 0.25em; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, a:visited { color: #666; text-decoration: none; }
+p a, p a:visited { text-decoration: underline; }
+a:hover { 
+  color: #d33;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
 
 .wrapper { max-width: 744px; margin: 0 auto; }
-.spacing { padding-top: 94px; padding-bottom: 20px; }
-.content { padding: 35px 20px; border: 1px solid #eee; box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1); }
+.spacing { padding-top: 6em; padding-bottom: 1.5em; }
+.content { background-color: white; color: #666; padding: 40px; border: 1px solid #eee; box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.15); }
 .page-header, .page-footer { background-color: #888; color: #eee; margin: 0; }
-.page-header { position: fixed; top: 0; width: 100%; border-bottom: 1px solid #ddd; box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.1); }
-.page-footer { position: absolute; bottom: 0;  width: 100%; padding: 1em 0; border-top: 1px solid #ddd; }
+.page-header { position: fixed; top: 0; width: 100%; border-bottom: 1px solid #ddd; box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.15); }
+.page-footer { padding: 1em 0; border-top: 1px solid #ddd; }
 
 .page-header a, .page-footer a { color: #eee; }
-.brand, nav ul a {  float: left; }
+.page-footer a:hover { color: #d33;  }
+
+.brand, .nav-item a {  float: left; }
 .brand img { padding-right: 2em;}
-nav ul a { text-decoration: none; font-size: 1.5em; padding: 0.5em 1em; }
-nav ul a:hover { font-weight: 200; background-color: red; }
+
+.nav-item a { font-size: 1.5em; padding: 0.5em 1em; }
+.nav-item a:hover { background-color: #d33; color: #eee; }
+
+.title { display: inline; padding-right: 0.5em; }
+.pub-date, footer p { font: 0.75em 'Courier New', coureir, monospace; }
+
+.back { display: block; }
 
 /* ==========================================================================
  Helper classes

@@ -4,11 +4,11 @@ layout: default
 
 <article>
 	<header>
-		<h1>{{ page.title || capitalize }}</h1>
-		<h2>{{  }}</h2>
+		<h1>{{ page.title }}</h1>
 	</header>
 		{{ content }}
 	<footer>
-		<p>published on: <time value="{{ page.date }}">{{ page.date | date_normalise }}</time></p>
+		<p><time value="{{ page.date }}">{{ page.date | date: "%A, %d %B %Y – %H:%M %Z" }}</time></p>
+		<a href="index.html" title="back" class="back">«</a>
 	</footer>
 </article>
