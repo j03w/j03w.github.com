@@ -2,7 +2,7 @@
 layout: post
 title: Hello, World
 post_id: 1
-permalink: hello-world
+permalink: hello-world.html
 comments: false
 date: 2012-09-10 02:11:55 +1000
 description:
