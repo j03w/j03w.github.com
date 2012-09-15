@@ -33,7 +33,7 @@ a:hover {
 }
 
 .wrapper { max-width: 744px; margin: 0 auto; }
-.spacing { padding-top: 3.5em; padding-bottom: 1em; }
+.spacing { padding-top: 3.5em; padding-bottom: 0.5em; }
 
 .content { background-color: white; color: #666; padding: 40px; border: 1px solid #eee; box-shadow: 0 1px 0 rgba(255, 255, 255, 0),0 0 10px rgba(0, 0, 0, 0.15); }
 
@@ -42,16 +42,16 @@ a:hover {
 .nav ul { margin: 0; padding: 0; }
 .brand {  float: left; }
 .nav-item a { float: right; }
-.brand img { position: absolute; top: 0; margin-left: 1em; }
+.brand img { position: absolute; top: 0; margin-left: 1.5em; }
 .nav-item a { display: block; padding: 0.5em 1em; border-left: 1px solid #666; }
 .nav-item a:hover { background-color: #d33; color: #eee; }
 .nav-item:first-child a { border-right: 1px solid #666; }
 
-.footer { text-align: right; }
+.footer { text-align: right; font-weight: normal; font-size: 0.75em; }
+.cc {  }
 
 .title { display: inline; padding-right: 0.5em; }
 .pub-date, article footer p { font: 0.75em 'Courier New', coureir, monospace; }
-
 .back { display: block; }
 
 /* ==========================================================================
