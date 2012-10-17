@@ -16,7 +16,7 @@ task :post do
 		f.puts "layout: post"
 		f.puts "post_id: #{id}"
 		f.puts "title: #{title}"
-		#f.puts "permalink: #{title}.html"
+		f.puts "permalink: #{title}.html"
 		f.puts "comments: false"
 		f.puts "published: true"
 		f.puts "date: #{now.strftime('%F %T %z')}"
